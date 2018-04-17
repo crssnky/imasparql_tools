@@ -1,0 +1,8 @@
+[package]
+name = "LiveScraping"
+version = "0.1.0"
+authors = ["crosssoniky <vindicare28@yahoo.co.jp>"]
+
+[dependencies]
+html5ever = "*"
+tendril = "*"
