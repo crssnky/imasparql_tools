@@ -18,7 +18,7 @@ request.get(url, function (err, response, body) {
 
         console.log("<rdf:Description rdf:about=\"" + idol + "\">");
         clothes.forEach(j => {
-            console.log("<schema:memberOf rdf:resource=\"" + j + "\"/>")
+            console.log("<schema:owns rdf:resource=\"" + j + "\"/>")
         });
         console.log("</rdf:Description>");
     });
